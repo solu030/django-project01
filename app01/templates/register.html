@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+       <meta charset="utf-8">
+       <title>Register Page</title>
+    </head>
+   </body>
+         <h1>Welcom to the register page!<h1>
+            <form action="/register/" method="post">
+                {% csrf_token %}
+                <div>
+                    name: <input type="text" name='usr' placeholder="请输入:">
+                </div>
+                <div>
+                    password: <input type="password" name="pwd" placeholder="请输入:">
+                </div>
+                <div>
+                    age: <input type="text" name="age" placeholder="请输入:">
+                </div>
+                <!-- <div>gender:
+                    <input type="radio" name="gender" value="1">male
+                    <input type="radio" name="gender" value="2">female
+                </div>
+                <div>
+                    hobby: <input type="checkbox" name="hobby" value="10">reading
+                    <input type="checkbox" name="hobby" value="11">sports
+                    <input type="checkbox" name="hobby" value="12">learn
+                </div>
+                <div>
+                    city: 
+                    <select name="city">
+                        <option value="bj">peking</option>
+                        <option value="sh">shanghai</option>
+                        <option value="wh">wuhan</option>
+                    </select>
+                </div>
+                <div>
+                    skill: 
+                    <select multiple name="skill">
+                        <option value="111">111</option>
+                        <option value="222">222</option>
+                        <option value="333">333</option>
+                    </select>
+                </div>
+                <div>
+                    more information:
+                    <textarea rows="5" name="more"></textarea>
+
+                </div> -->
+                <div>
+                    <!-- <input type="button" value="button"> -->
+                    <input type="submit" value="submit">
+                </div>
+        </form>
+
+   <body>
+</html>
