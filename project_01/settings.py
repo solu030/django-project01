@@ -85,9 +85,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django',
-        'USER': 'root',
-        'PASSWORD': '12345',
-        'HOST': '127.0.0.1',
+        'USER': 'solu',
+        'PASSWORD': 'qweasd852',
+        'HOST': 'solu.mysql.pythonanywhere-services.com',
         'PORT': 3306,
     }
 }
@@ -135,3 +135,5 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ALLOWED_HOSTS = ['solu.pythonanywhere.com', 'www.solu.pythonanywhere.com']
